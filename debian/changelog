@@ -1,0 +1,61 @@
+node-duplexify (4.1.2-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Update standards version to 4.5.0, no changes needed.
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on node-through2.
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed.
+  * New upstream version 4.1.2
+
+ -- Yadd <yadd@debian.org>  Sun, 10 Oct 2021 20:35:06 +0200
+
+node-duplexify (4.1.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Switch test and install to pkg-js-tools
+  * New upstream version 4.1.1
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 26 Nov 2019 18:41:06 +0100
+
+node-duplexify (3.6.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 3.6.1
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 21 Jan 2019 17:42:15 +0100
+
+node-duplexify (3.5.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Use readable-stream as required by upstream due to nodejs 10 changes
+  * Bump debhelper compatibility level to 11
+  * Declare compliance with policy 4.3.0
+  * Enable tape test during build
+  * Fix debian/copyright links
+  * Add upstream/metadata
+  * Update VCS fields to salsa
+  * Change section to javascript
+  * Ignore test if nocheck is set
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 21 Jan 2019 17:25:55 +0100
+
+node-duplexify (3.5.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #847460)
+
+ -- Sruthi Chandran <srud@disroot.org>  Thu, 08 Dec 2016 18:22:20 +0530
